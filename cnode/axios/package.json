@@ -1,0 +1,20 @@
+{
+  "name": "axios",
+  "version": "1.0.0",
+  "description": "axios method crawler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "crawler",
+    "axios"
+  ],
+  "author": "JiangBao",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
