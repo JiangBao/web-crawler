@@ -38,7 +38,7 @@ class Crawler {
           const content = $('.markdown-text').html();
           dao.updateContent(this.href[i]._id, content).then();
         }
-        this.hrefs.length ? this.getContent() : process.exit();
+        this.href.length ? this.getContent() : '';
       })
       .catch((err) => {
         console.error(err.stack);
